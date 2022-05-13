@@ -249,6 +249,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fakelogprint
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
