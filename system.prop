@@ -1,5 +1,5 @@
 # Apex
-ro.apex.updatable=true
+ro.apex.updatable=false
 
 # Audio
 audio.offload.min.duration.secs=30
