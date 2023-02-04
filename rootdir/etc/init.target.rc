@@ -128,12 +128,6 @@ on boot
     write /dev/stune/camera-daemon/schedtune.prefer_idle 1
     write /dev/stune/camera-daemon/schedtune.boost 0
 
-# Allow system to manipulate kprofiles modes and parameters
-    chown system system /sys/module/kprofiles/parameters/auto_kprofiles
-    chmod 0660 /sys/module/kprofiles/parameters/auto_kprofiles
-    chown system system /sys/module/kprofiles/parameters/mode
-    chmod 0660 /sys/module/kprofiles/parameters/mode
-
 #add runin factory charging test
     chmod 0777 /sys/class/power_supply/battery/input_suspend
     chmod 0777 /sys/class/power_supply/battery/charging_enabled
