@@ -1,6 +1,10 @@
 # Charger
 ro.charger.enable_suspend=true
 
+# Camera 
+ro.hardware.camera=xiaomi 
+ro.com.google.lens.oem_camera_package=com.android.camera
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3700
